@@ -356,15 +356,31 @@
             </a></li>
           </ul>
         </div>
+        <div class="subscribe">
+          <strong class="join">Підпишіться на розсилку</strong>
+          <div class="field-button">
+            <form class="field-form">
+              <label class="field-label">
+                <input class="field" name="email" type="email" placeholder="E-mail">
+              </label>
+            </form>
+          <button class="subscribe-button" type="submit"><span class="subscribe-text">Підписатися</span>
+          <svg width="24" height="24">
+            <use href="./img/icons.svg#icon-telegram"></use>
+          </svg></button>
+          </div>
+        </div>
       </div>
     </footer>
+    <!-- Модальное окно -->
     <div data-modal class="backdrop is-hidden">
       <div class="modal">
         <button data-modal-close class="close" type="button">
           <svg class="close-button" width="11" height="11">
-            <use href="./img/icons.svg#close-button"></use>
+            <use href="./img/icons.svg#icon-cross"></use>
           </svg>
         </button>
+        <b class="modal-title-text">Залиште свої дані, ми вам передзвонимо</b>
       </div>
     </div>
     <script src="./modal.js"></script>
